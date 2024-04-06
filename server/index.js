@@ -10,7 +10,7 @@ const port = 5000;
 app.use(express.json());
 
 app.use(cors({
-  origin:"*",
+  origin:"https://inotebook-mern-frontend.vercel.app",
   methods:["POST","GET","DELETE","PUT"],
   credentials:true
 }))
