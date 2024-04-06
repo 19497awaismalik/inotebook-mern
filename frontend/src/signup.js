@@ -13,7 +13,7 @@ const formSubmit=async(e)=>{
 e.preventDefault();
 let success=false;
 const {cpassword ,password}=state;;
-const response = await fetch("http://localhost:5000/api/auth/create", {
+const response = await fetch("https://inotebook-mern-server.vercel.app/api/auth/create", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
